@@ -1,9 +1,9 @@
 
-public abstract class Animal {
+public class Animal  {
 	private int id; 
 	private String nom;
 	private double poids; 
-	private static int compteur 1; 
+	private static int compteur = 1; 
 	
 	// constructeur
 	public Animal (int id, String nom, double poids){
@@ -17,6 +17,6 @@ public abstract class Animal {
 		return poids/4;
 	}
 	
-	public abstract Ration calculRation(); 
+
 }
 
